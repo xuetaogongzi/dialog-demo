@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Dialog_Root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextView_Share"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_marginTop="12dip"
+        android:layout_marginLeft="48dip"
+        android:layout_marginRight="48dip"
+        android:gravity="center"
+        android:textColor="@color/sl_tab_indicator_text"
+        android:textSize="18sp"
+        android:text="@string/share"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="48dip"
+        android:layout_marginRight="48dip"
+        android:background="#e5e5e5"
+        />
+
+    <TextView
+        android:id="@+id/TextView_Report"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_marginLeft="48dip"
+        android:layout_marginRight="48dip"
+        android:gravity="center"
+        android:textColor="@color/sl_tab_indicator_text"
+        android:textSize="18sp"
+        android:text="@string/report"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="48dip"
+        android:layout_marginRight="48dip"
+        android:background="#e5e5e5"
+        />
+
+    <Button
+        android:id="@+id/Button_Cancel"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:background="@drawable/btn_red_round_cornor"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:text="@string/cancel"
+        />
+
+</LinearLayout>
